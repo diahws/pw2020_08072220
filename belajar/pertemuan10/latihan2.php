@@ -1,9 +1,6 @@
 <?php
 require 'functions.php';
-$mahasiswa = query("SELECT * FROM mahasiswa")
-
-// tampung ke variabel mahasiswa 
-$mahasiswa = $rows;
+$mahasiswa = query("SELECT * FROM mahasiswa");
 
 ?>
 <!DOCTYPE html>
